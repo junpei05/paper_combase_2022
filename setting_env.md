@@ -16,8 +16,6 @@ paper_combase_2022/
 └── 3_・・・
 </pre>
 
-- **For uploading a large file.md**  
-  25MB以上のサイズのファイルをアップロードするための手順。
 - **Dockerfile**  
   Dockerイメージを構築するための設定ファイル。必要なライブラリのインストールをまとめて記述。
 - **requirements.txt**  
@@ -57,12 +55,12 @@ open -a Docker
 6. Docker imageを作成する  
   **Dockerfileの拡張子が.txtになっていた場合注意！拡張子を消してください**  
 ``` zsh 
-Docker build ./ -t "Docker imageの名前（自分で決めて設定）":latest
+Docker build ./ -t combase2022:latest
 ```
 
 7. Docker imageを起動する  
 ``` zsh 
-Docker run -p 8888:8888 "6で決めたDocker imageの名前":latest
+Docker run -p 8888:8888 combase2022:latest
 ```
 
 8. コマンド実行時に表示されたhttp://127.0.0.1:8888/tree?token=... のようなURLをコピーしてブラウザで開く。  
