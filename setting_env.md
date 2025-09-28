@@ -29,7 +29,7 @@ paper_combase_2022/
 ## Dockerで作成したコードのローカルPCでの実行
 1. あらかじめ、Docker Desktopをインストールしておく
 
-2. Githubにログインする (省略してもうまくいきました。齋藤)
+2. Githubにログインする
 ``` zsh 
 gh auth login
 ```
@@ -55,16 +55,14 @@ open -a Docker
 ```  
 
 6. Docker imageを作成する  
-  「boston_regression」の部分は実行処理に応じた好きな名前に変えてください。  
-   **Dockerfileの拡張子が.txtになっていた場合注意！拡張子を消してください**  
+  **Dockerfileの拡張子が.txtになっていた場合注意！拡張子を消してください**  
 ``` zsh 
-Docker build ./ -t boston_regression:latest
+Docker build ./ -t "Docker imageの名前（自分で決めて設定）":latest
 ```
 
 7. Docker imageを起動する  
-   もし6番で名前を変えていた場合には「boston_regression」を変えてください  
 ``` zsh 
-Docker run -p 8888:8888 boston_regression:latest
+Docker run -p 8888:8888 "6で決めたDocker imageの名前":latest
 ```
 
 8. コマンド実行時に表示されたhttp://127.0.0.1:8888/tree?token=... のようなURLをコピーしてブラウザで開く。  
