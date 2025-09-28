@@ -6,9 +6,11 @@ This repository shows the the script of "[**Data mining for prediction and inter
 - `paper_combase_2022/`
   - `README.md` – Project description and instructions
   - `data/` – Data files
+    - `data_2022.csv`
   - `scripts/` – Analysis code
   - `.devcontainer/`
     - `Dockerfile` - information on Docker image
+    - `devcontainer.json`
     - `requirements.txt` - information on library dependencies
 
 ### Reference
