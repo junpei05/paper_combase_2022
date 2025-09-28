@@ -1,5 +1,6 @@
-# code repository on paper
+# Repository (Hosoe & Sunagawa et al., 2022)
 this is the repository for the script of "[**Data mining for prediction and interpretation of bacterial population behavior in food**](https://scholar.google.com/scholar_url?url=https://www.frontiersin.org/articles/10.3389/frfst.2022.979028/full&hl=ja&sa=T&oi=gsb&ct=res&cd=0&d=13392414005926241263&ei=j7rYaKDSGaDWieoP0ZmP6AE&scisig=AAZF9b-A5Kg0U4LyDmGqmK7m4BtT)"
+
 
 
 ### Reference
