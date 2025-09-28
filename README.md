@@ -7,7 +7,7 @@ This repository shows the the script of "[**Data mining for prediction and inter
   - `README.md` – Project description and instructions
   - `data/` – Data files
   - `scripts/` – Analysis code
-  - 'devcontainer'
+  - `.devcontainer/`
     - `Dockerfile` - information on Docker image
     - `requirements.txt` - information on library dependencies
 
