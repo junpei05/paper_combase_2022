@@ -1,23 +1,14 @@
 # Repository (Hosoe & Sunagawa et al., 2022)
-this is the repository for the script of "[**Data mining for prediction and interpretation of bacterial population behavior in food**](https://scholar.google.com/scholar_url?url=https://www.frontiersin.org/articles/10.3389/frfst.2022.979028/full&hl=ja&sa=T&oi=gsb&ct=res&cd=0&d=13392414005926241263&ei=j7rYaKDSGaDWieoP0ZmP6AE&scisig=AAZF9b-A5Kg0U4LyDmGqmK7m4BtT)"
 
 ## Repository Structure
-This repository shows the results of growth no growth probability at single cell level.<br>
-
+This repository shows the the script of "[**Data mining for prediction and interpretation of bacterial population behavior in food**](https://scholar.google.com/scholar_url?url=https://www.frontiersin.org/articles/10.3389/frfst.2022.979028/full&hl=ja&sa=T&oi=gsb&ct=res&cd=0&d=13392414005926241263&ei=j7rYaKDSGaDWieoP0ZmP6AE&scisig=AAZF9b-A5Kg0U4LyDmGqmK7m4BtT)" <br>
 
 - `paper_combase_2022/`
   - `README.md` – Project description and instructions
   - `data/` – Data files
-    - `raw/` – Original data
-    - `processed/` – Preprocessed data
+    - 
   - `scripts/` – Analysis code
-    - `preprocessing/` – Data preprocessing scripts
-    - `analysis/` – Analysis scripts
-    - `visualization/` – Visualization scripts
-  - `results/` – Outputs, figures, and analysis results
-  - `docs/` – Documentation and reports
-  - `references/` – Relevant literature and references
-  - '.dockerdev'
+  - 'devcontainer'
     - `Dockerfile` - information on Docker image
     - `requirements.txt` - information on library dependencies
 
