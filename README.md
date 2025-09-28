@@ -13,5 +13,9 @@ This repository shows the the script of "[**Data mining for prediction and inter
     - `devcontainer.json`
     - `requirements.txt` - information on library dependencies
 
+## Setup and Dependencies
+
+
+
 ### Reference
 Hosoe J, Sunagawa J, Nakaoka S, Koseki S and Koyama K (2022), Data mining for prediction and interpretation of bacterial population behavior in food.Front. Food. Sci. Technol. 2:979028. doi: 10.3389/frfst.2022.979028
