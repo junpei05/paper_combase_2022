@@ -20,6 +20,7 @@ This study applies data mining to the [ComBase](https://www.combase.cc/) databas
 ```
 paper_combase_2022/
 ├── README.md
+├── .gitignore                 # Git ignore rules
 ├── data/
 │   └── data_2022.csv          # Preprocessed ComBase dataset
 ├── notebooks/
