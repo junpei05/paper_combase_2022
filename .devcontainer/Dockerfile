@@ -1,19 +1,20 @@
 FROM python:3.8.12-slim
 
-# システム依存パッケージ
-RUN apt-get update && apt-get install -y --no-install-recommends \
+# Install system dependencies
+RUN apt-get update -o Acquire::AllowInsecureRepositories=true && \
+    apt-get install -y --no-install-recommends --allow-unauthenticated \
     build-essential \
     python3-dev \
     git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# 作業ディレクトリ
+# Set working directory
 WORKDIR /workspace
 
-# requirements.txtをコピーしてインストール
-COPY requirements.txt /workspace/
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy and install requirements
+COPY requirements.txt /workspace/requirements.txt
+RUN pip install --no-cache-dir -r /workspace/requirements.txt
 
-# Jupyterカーネル（任意: VSCodeカーネルリストに表示）
+# Register Jupyter kernel (optional: shows up in VSCode kernel list)
 RUN python -m ipykernel install --user --name combase_2022 --display-name "Python (ComBase_2022)"
