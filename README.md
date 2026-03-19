@@ -23,8 +23,11 @@ paper_combase_2022/
 ├── .gitignore                 # Git ignore rules
 ├── data/
 │   └── data_2022.csv          # Preprocessed ComBase dataset
-├── notebooks/
-│   └── code_datamining_Hosoe_ver1.ipynb  # Full analysis notebook
+├── script/
+│   └── code_2022_combase.ipynb  # Full analysis notebook
+├── docs/
+│   ├── app_2Dcolormap.md      # Interactive 2D colormap web app guide
+│   └── setting_env.md         # Docker-based environment setup guide (Japanese)
 └── .devcontainer/
     ├── Dockerfile             # Docker image definition (Python 3.8.12)
     ├── devcontainer.json      # VS Code Dev Container configuration
@@ -94,14 +97,14 @@ Requires [Docker Desktop](https://www.docker.com/products/docker-desktop/) and t
 
 ```bash
 pip install -r .devcontainer/requirements.txt
-jupyter notebook notebooks/code_datamining_Hosoe_ver1.ipynb
+jupyter notebook script/code_2022_combase.ipynb
 ```
 
 ---
 
 ## Usage
 
-Open `notebooks/code_datamining_Hosoe_ver1.ipynb` and run the cells in order. The notebook covers:
+Open `script/code_2022_combase.ipynb` and run the cells in order. The notebook covers:
 
 1. Data loading and preprocessing from `data/data_2022.csv`
 2. Feature encoding with `category_encoders`
