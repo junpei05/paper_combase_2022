@@ -8,7 +8,7 @@ This repository provides the code and data accompanying the paper:
 > doi: [10.3389/frfst.2022.979028](https://doi.org/10.3389/frfst.2022.979028)
 
 An interactive web application presented in Figure 4 and Supplementary Figures of this paper is available [here](https://app2dcolormap-6kdothisijw76lj7hyxl3n.streamlit.app/).
-An introductory page for the web application is available [here](https://github.com/junpei05/paper_combase_2022/docs/docs/app_2Dcolormap.md)
+An introductory page for the web application is available [here](https://github.com/junpei05/paper_combase_2022/blob/main/docs/app_2Dcolormap.md)
 
 
 ---
